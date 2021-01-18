@@ -91,6 +91,8 @@ public class FlipPanel extends StackPane {
     public StackPane getBack() { return back; }
 
     public void flipToFront() {
+        if (flipTime == 0)
+            rotate.setAngle(0);
         if (Double.compare(rotate.getAngle(), 0) == 0) return;
         KeyValue kvStart = new KeyValue(rotate.angleProperty(), 180, Interpolator.EASE_IN);
         KeyValue kvStop  = new KeyValue(rotate.angleProperty(), 0, Interpolator.EASE_OUT);
@@ -111,6 +113,8 @@ public class FlipPanel extends StackPane {
         flipToFront.play();
     }
     public void flipToBack() {
+        if (flipTime == 0)
+            rotate.setAngle(180);
         if (Double.compare(rotate.getAngle(), 180) == 0) return;
         KeyValue kvStart = new KeyValue(rotate.angleProperty(), 0, Interpolator.EASE_IN);
         KeyValue kvStop  = new KeyValue(rotate.angleProperty(), 180, Interpolator.EASE_OUT);
@@ -135,7 +139,7 @@ public class FlipPanel extends StackPane {
     public boolean isBackVisible() { return back.isVisible(); }
 
     public void setFlipTime(final double FLIP_TIME) {
-        flipTime = clamp(100, 2000, FLIP_TIME);
+        flipTime = FLIP_TIME; //clamp(100, 2000, FLIP_TIME);
     }
 
     private void adjustRotationAxis() {
