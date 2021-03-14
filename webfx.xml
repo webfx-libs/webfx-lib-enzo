@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module>
 
-    <packages exports="true"/>
-
-    <resource-packages>
-        <package>eu.hansolo.enzo.clock</package>
-    </resource-packages>
+    <packages exports="true">
+        <package resource="true">eu.hansolo.enzo.clock</package>
+    </packages>
 
     <graalvm-reflection-json>
         <![CDATA[
