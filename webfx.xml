@@ -6,6 +6,10 @@
         <resource-package>eu.hansolo.enzo.clock</resource-package>
     </packages>
 
+    <dependencies>
+        <source-modules/>
+    </dependencies>
+
     <graalvm-reflection-json>
         <![CDATA[
 [
