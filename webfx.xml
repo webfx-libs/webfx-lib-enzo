@@ -78,10 +78,10 @@
             </graalvm-reflection-json>
 
             <source-packages>
+                <package>eu.hansolo.enzo.clock</package>
+                <package>eu.hansolo.enzo.clock.skin</package>
                 <package>eu.hansolo.enzo.flippanel</package>
                 <package>eu.hansolo.enzo.fonts</package>
-                <package>eu.hansolo.enzo.clock.skin</package>
-                <package>eu.hansolo.enzo.clock</package>
             </source-packages>
 
             <used-by-source-modules>
