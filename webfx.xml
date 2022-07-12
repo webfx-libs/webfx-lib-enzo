@@ -90,8 +90,8 @@
                 <module>webfx-kit-javafxcontrols-emul</module>
                 <module>webfx-kit-javafxgraphics-emul</module>
                 <module>webfx-kit-util</module>
-                <module>webfx-platform-client-uischeduler</module>
-                <module>webfx-platform-shared-scheduler</module>
+                <module>webfx-platform-scheduler</module>
+                <module>webfx-platform-uischeduler</module>
             </used-by-source-modules>
 
         </project>

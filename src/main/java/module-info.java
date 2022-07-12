@@ -8,8 +8,8 @@ module webfx.lib.enzo {
     requires javafx.controls;
     requires javafx.graphics;
     requires webfx.kit.util;
-    requires webfx.platform.client.uischeduler;
-    requires webfx.platform.shared.scheduler;
+    requires webfx.platform.scheduler;
+    requires webfx.platform.uischeduler;
 
     // Exported packages
     exports eu.hansolo.enzo.clock;
