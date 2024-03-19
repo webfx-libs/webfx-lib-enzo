@@ -30,6 +30,12 @@
 
     </repositories>
 
+
+    <properties>
+        <!-- Necessary for single-module libraries, otherwise the webfx export is done too late in deploy phase -->
+        <plugin.webfx.param.export-phase>install</plugin.webfx.param.export-phase>
+    </properties>
+
     <dependencies>
 
         <dependency>
@@ -59,8 +65,9 @@
         <dependency>
             <groupId>dev.webfx</groupId>
             <artifactId>webfx-platform-javatime-emul-j2cl</artifactId>
-            <version>${webfx.version}</version>
+            <version>0.1.0-SNAPSHOT</version>
             <scope>runtime</scope>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
