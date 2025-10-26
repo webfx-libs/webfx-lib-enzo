@@ -70,26 +70,27 @@ public final class Fonts {
     
 
     static {
-/*
+
         try {
-            bebasNeueName          = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/bebasneue.otf"), 10).getName();
-            digitalName            = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/digital.ttf"), 10).getName();
-            digitalReadoutName     = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/digitalreadout.ttf"), 10).getName();
-            digitalReadoutBoldName = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/digitalreadoutb.ttf"), 10).getName();
-            dinFunName             = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/din.otf"), 10).getName();
-            elektraName            = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/elektra.ttf"), 10).getName();
-            robotoThinName         = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Thin.ttf"), 10).getName();
-            robotoLightName        = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Light.ttf"), 10).getName();
-            robotoRegularName      = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Regular.ttf"), 10).getName();
-            robotoMediumName       = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Medium.ttf"), 10).getName();
-            robotoBoldName         = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Bold.ttf"), 10).getName();
-            latoHairlineName       = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Hai.ttf"), 10).getName();
-            latoLightName          = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Lig.ttf"), 10).getName();
-            latoRegularName        = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Reg.ttf"), 10).getName();
-            latoBoldName           = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Bol.ttf"), 10).getName();
-            latoBlackName          = Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Bla.ttf"), 10).getName();
+            bebasNeueName          = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/bebasneue.otf"), 10).getName();
+            digitalName            = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/digital.ttf"), 10).getName();
+            digitalReadoutName     = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/digitalreadout.ttf"), 10).getName();
+            digitalReadoutBoldName = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/digitalreadoutb.ttf"), 10).getName();
+            dinFunName             = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/din.otf"), 10).getName();
+            elektraName            = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/elektra.ttf"), 10).getName();
+            robotoThinName         = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Thin.ttf"), 10).getName();
+            robotoLightName        = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Light.ttf"), 10).getName();
+            robotoRegularName      = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Regular.ttf"), 10).getName();
+            robotoMediumName       = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Medium.ttf"), 10).getName();
+            robotoBoldName         = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Roboto-Bold.ttf"), 10).getName();
+            latoHairlineName       = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Hai.ttf"), 10).getName();
+            latoLightName          = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Lig.ttf"), 10).getName();
+            latoRegularName        = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Reg.ttf"), 10).getName();
+            latoBoldName           = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Bol.ttf"), 10).getName();
+            latoBlackName          = //Font.loadFont(Fonts.class.getResourceAsStream("/eu/hansolo/enzo/fonts/Lato-Bla.ttf"), 10).getName();
+                                     "Courrier New"; // Just using Courrier New in WebFX
         } catch (Exception exception) { }
-*/
+
         BEBAS_NEUE_NAME           = bebasNeueName;
         DIGITAL_NAME              = digitalName;
         DIGITAL_READOUT_NAME      = digitalReadoutName;
